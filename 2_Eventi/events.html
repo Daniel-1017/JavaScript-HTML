@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <style>
+        body {
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="#" onclick="clickHref()" class="href">Premi</a>
+
+    <p onclick="clickText('p')">Text</p>
+    <p onclick="clickText('a.href')">Text-2</p>
+
+    <input type="text" onfocus="focusEvent()" onblur="focusEndEven()" onmouseover="focusEvent()" onmouseout="focusEndEven()">
+
+    <textarea name="textarea" id="" cols="30" rows="10" class="full-text"></textarea>
+
+    <div class="block">
+        Hello World!
+    </div>
+
+    <script src="js/events.js"></script>
+</body>
+</html>
